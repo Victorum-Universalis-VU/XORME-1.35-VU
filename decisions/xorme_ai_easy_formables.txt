@@ -22,10 +22,24 @@ country_decisions = {
 
 		effect = {
 			change_primary_culture = turkish
-			change_tag = RUM
+#			change_tag = RUM
+            change_tag = RMM
 			on_change_tag_effect = yes
 			restore_country_name = yes
-			RUM = {
+#			RUM = {
+#				if = {
+#					limit = {
+#						NOT = { government = monarchy }
+#						is_revolutionary = no
+#					}
+#					change_government = monarchy
+#				}
+#				if = {
+#					limit = { is_revolutionary = no }
+#					add_government_reform = sultanate_of_rum_reform
+#				}
+#			}
+            RMM = {
 				if = {
 					limit = {
 						NOT = { government = monarchy }

@@ -1,9 +1,12 @@
+#VU 1.35 dummy file by San Felipe
+#Turned into a dummy file due to the fact tat 
 xorme_ai_estate = {
 	icon = 5
 
 	# If true, country will get estate
 	trigger = {
-		NOT = { is_subject_of_type = xorme_moh_administrative_district }
+		#NOT = { is_subject_of_type = xorme_moh_administrative_district }
+		NOT = { is_subject_of_type = administrative_region }
 		ROOT = {
 			ai = yes
 			has_any_estates = yes

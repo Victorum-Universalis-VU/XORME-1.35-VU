@@ -21,7 +21,8 @@ estate_eunuchs_bookkeepers_privilege = {
 		factor = 500
 		modifier = {
 			factor = 0
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 		modifier = {
 			factor = 2
@@ -75,7 +76,8 @@ estate_eunuchs_outwards_perfection_privilege = {
 		factor = 5
 		modifier = {
 			factor = 1000
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 	}
 }
@@ -139,7 +141,8 @@ estate_eunuchs_delegate_provincial_administration_privilege = {
 		}
 		modifier = {
 			factor = 1000
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 	}
 }
@@ -224,7 +227,8 @@ estate_eunuchs_western_bureau_privilege = {
 		}
 		modifier = {
 			factor = 0
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 	}
 }
@@ -252,7 +256,8 @@ estate_eunuchs_eastern_bureau_privilege = {
 		}
 		modifier = {
 			factor = 0
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 	}
 }
@@ -286,7 +291,8 @@ estate_eunuchs_royal_intrigue_keepers_privilege = {
 		}
 		modifier = {
 			factor = 0
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 	}
 }
@@ -345,7 +351,8 @@ estate_eunuchs_delegate_subject_diplomacy_privilege = {
 		factor = 1000
 		modifier = {
 			factor = 0
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 	}
 }
@@ -454,7 +461,8 @@ estate_eunuchs_allow_personal_fortunes_privilege = {
 		}
 		modifier = {
 			factor = 1000
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 	}
 }
@@ -489,7 +497,8 @@ estate_eunuchs_single_whip_law_privilege = {
 		}
 		modifier = {
 			factor = 1000
-			is_subject_of_type = xorme_moh_administrative_district
+			#is_subject_of_type = xorme_moh_administrative_district
+			is_subject_of_type = administrative_region
 		}
 	}
 }

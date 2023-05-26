@@ -16,8 +16,8 @@ country_event = {
 		is_at_war = no
 		NOT = { has_global_flag = france_eng_declared_hundred_years_war }
 		NOT = { has_disaster = war_of_the_roses }
-		mission_completed = eng_mighty_army
-		mission_completed = eng_war_france
+		mission_completed = eng_recruit_the_mercenaries
+		mission_completed = gbr_ave_hundred_years_war
 		SCO = {
 			ai = yes
 			NOT = { is_subject = yes }
